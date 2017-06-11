@@ -1,0 +1,1 @@
+globalVariables("color_data")

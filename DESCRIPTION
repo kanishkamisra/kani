@@ -3,10 +3,17 @@ Title: Personal package for Kanishka that includes plotting and other helper fun
 Version: 0.1
 Authors@R: person("Kanishka", "Misra", email = "menogetusername@gmail.com", role = c("aut", "cre"))
 Description: Contains helper functions to help Kanishka in his analysis. 
+URL: https://github.com/kanishkamisra/kani
 Depends: R (>= 3.3.2)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports:
-    ggplot2
-RoxygenNote: 5.0.1
+    ggplot2,
+    scales
+RoxygenNote: 6.0.1.9000
+Collate: 
+    'color_data.R'
+    'globals.R'
+    'plotting.R'
+    'theme_foundation.R'
