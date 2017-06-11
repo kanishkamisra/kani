@@ -59,6 +59,11 @@ theme_kani <- function (base_size = 12, base_family = "Roboto") {
   )
 }
 
+#' fivethirtyeight.com color palette
+#'
+#'
+#' @family colour kani
+#' @export
 
 kani_pal <- function() {
   function(n) {
@@ -72,14 +77,22 @@ kani_pal <- function() {
   }
 }
 
+#' fivethirtyeight.com color scales
+#'
+#' Color scales using the colors in the fivethirtyeight graphics.
+#'
+#' @inheritParams ggplot2::scale_colour_hue
+#' @family colour kani
+#' @seealso \code{\link{theme_fivethirtyeight}} for examples.
+#' @export
 scale_colour_kani <- function(type, ...) {
   discrete_scale("colour", "kani", kani_pal(), ...)
 }
 
-scale_color_kani <- function(type, ...) {
-  discrete_scale("colour", "kani", kani_pal(), ...)
-}
+#' @export
+scale_color_kani <- scale_colour_kani
 
+#' @export
 scale_fill_kani <- function(type, ...) {
   discrete_scale("fill", "kani", kani_pal(), ...)
 }
