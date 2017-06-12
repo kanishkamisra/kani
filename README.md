@@ -19,7 +19,7 @@ p <- ggplot(mtcars, aes(wt, mpg, color = factor(gear))) +
   labs(title = "This is a title", subtitle = "This is a subtitle")
 ```
 
-![ggplot_vanila](kani/plots/ggplot_plain.png, "Vanilla ggplot 2 plot")
+![ggplot_vanila](kani/raw/master/plots/ggplot_plain.png "Vanilla ggplot 2 plot")
 
 * With the kani theme:
 
@@ -34,4 +34,4 @@ p <- ggplot(mtcars, aes(wt, mpg, color = factor(gear))) +
   theme_kani()
 ```
 
-![ggplot_kani](kani/plots/ggplot_kani.png, "Kani-themed ggplot 2 plot")
+![ggplot_kani](kani/raw/master/plots/ggplot_kani.png "Kani-themed ggplot 2 plot")
