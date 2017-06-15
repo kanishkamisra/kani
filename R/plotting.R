@@ -20,7 +20,7 @@ NULL
 #'}
 #'
 #' @export
-theme_kani <- function (base_size = 12, base_family = "Roboto") {
+theme_kani <- function (base_size = 12, base_family = "Roboto Condensed") {
   (
     # Start with basic, foundational theme then add
     theme_foundation(base_size = base_size, base_family = base_family) +
@@ -32,7 +32,7 @@ theme_kani <- function (base_size = 12, base_family = "Roboto") {
         
         # Format axis elements
         axis.title = element_text(),
-        axis.text = element_text(color = color_data$colors["bg_text"]),
+        axis.text = element_text(color = color_data$colors["medgrey"]),
         axis.ticks = element_blank(),
         axis.line = element_blank(),
         
@@ -48,9 +48,9 @@ theme_kani <- function (base_size = 12, base_family = "Roboto") {
         panel.grid.minor = element_blank(),
         
         # format texual elements of the plot like title, subtitle and change their margin
-        plot.title = element_text(hjust = 0, size = rel(2), face = "bold"),
-        plot.subtitle = element_text(size = rel(1.4)),
-        plot.caption = element_text(size = 15),
+        plot.title = element_text(hjust = 0, size = rel(2), face = "bold", family = "Roboto"),
+        plot.subtitle = element_text(size = rel(1.4), family = "Roboto"),
+        plot.caption = element_text(size = 15, family = "Roboto"),
         plot.margin = unit(c(1, 1, 1, 1), "lines"),
         
         # format background 

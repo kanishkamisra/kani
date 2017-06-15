@@ -19,8 +19,15 @@ color_data <- {
     red = "#ff7473",
     blue = "#47b8e0",
     yellow = "#ffc952",
-    green = "#7cae00",
-    purple = "#c77cff",
+    green = "#8cd790",
+    purple = "#6a60a9",
+    orange = "#f68657",
+    dark_pink = "#d81159",
+    dark_grey = "#6e7783",
+    purple_grey = "#8283a7",
+    orange_alt = "#f17f42",
+    green_alt = "#7cae00",
+    purple_alt = "#c77cff",
     dark = "#34314c"
   )
   
