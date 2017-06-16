@@ -71,7 +71,7 @@ kani_pal <- function() {
       colors <- color_data$colors[c("light_red","light_blue")] 
     }
     else {
-      colors <- color_data$colors[c("red","blue", "yellow", "green", "purple", "orange", "dark_pink", "dark_grey", "purple_grey")] 
+      colors <- color_data$colors[c("red","blue", "yellow", "green", "purple", "dark_grey", "orange", "dark_pink", "purple_grey")] 
     }
     unname(colors[seq_len(n)])
   }
