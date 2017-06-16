@@ -32,7 +32,7 @@ theme_kani <- function (base_size = 12, base_family = "Roboto Condensed") {
         
         # Format axis elements
         axis.title = element_text(),
-        axis.text = element_text(),
+        axis.text = element_text(color_data$color["bg_text"]),
         axis.ticks = element_blank(),
         axis.line = element_blank(),
         
@@ -71,7 +71,7 @@ kani_pal <- function() {
       colors <- color_data$colors[c("light_red","light_blue")] 
     }
     else {
-      colors <- color_data$colors[c("red","blue", "yellow", "green", "purple", "dark")] 
+      colors <- color_data$colors[c("red","blue", "yellow", "green", "purple", "orange", "dark_pink", "dark_grey", "purple_grey")] 
     }
     unname(colors[seq_len(n)])
   }
