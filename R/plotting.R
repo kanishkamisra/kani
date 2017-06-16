@@ -32,7 +32,7 @@ theme_kani <- function (base_size = 12, base_family = "Roboto Condensed") {
         
         # Format axis elements
         axis.title = element_text(),
-        axis.text = element_text(color_data$color["bg_text"]),
+        axis.text = element_text(color = color_data$color["bg_text"]),
         axis.ticks = element_blank(),
         axis.line = element_blank(),
         
