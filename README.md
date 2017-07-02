@@ -35,3 +35,8 @@ p <- ggplot(mtcars, aes(wt, mpg, color = factor(gear))) +
 ```
 
 ![ggplot_kani](plots/ggplot_kani.png "Kani-themed ggplot 2 plot")
+
+## To-do
+- [ ] Change axis.x and axis.y text element sizes.
+- [ ] Add more colors in scales.
+- [ ] Add multiple options for theme bg.
